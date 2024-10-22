@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="CV Tri Avesya Frastila">
+    <meta name="keywords" content="CV, resume, Tri Avesya Frastila">
+    <meta name="author" content="Tri Avesya Frastila">
+    <title>CV Tri Avesya Frastila</title>
+    <style>
+        body {
+            font-family: 'Verdana', sans-serif;
+            background-color: #eaeaea;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 85%;
+            margin: 20px auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 15px rgba(0,0,0,0.1);
+        }
+        header {
+            text-align: center;
+            padding: 20px;
+            background-color: #0056b3;
+            color: white;
+            border-radius: 10px 10px 0 0;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 28px;
+        }
+        header p {
+            font-size: 16px;
+        }
+        section {
+            margin-bottom: 20px;
+        }
+        h2 {
+            color: #0056b3;
+            border-bottom: 2px solid #0056b3;
+            padding-bottom: 5px;
+            font-size: 22px;
+        }
+        .personal-info, .education, .skills, .portfolio, .languages {
+            padding: 10px 20px;
+        }
+        .personal-info p, .education p, .skills p, .languages p {
+            margin: 8px 0;
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+        ul li {
+            background-color: #f2f2f2;
+            margin-bottom: 10px;
+            padding: 10px;
+            border-radius: 5px;
+        }
+        ul li a {
+            color: #0056b3;
+            text-decoration: none;
+        }
+        ul li a:hover {
+            text-decoration: underline;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            font-size: 12px;
+            background-color: #0056b3;
+            color: white;
+            border-radius: 0 0 10px 10px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <header>
+        <h1>Tri Avesya Frastila</h1>
+        <p>Mahasiswa Bisnis Digital - Fakultas Ekonomi Bisnis dan Ilmu Sosial</p>
+    </header>
+
+    <section class="personal-info">
+        <h2>Informasi Pribadi</h2>
+        <p><strong>Nama:</strong> Tri Avesya Frastila</p>
+        <p><strong>Nomor Telepon:</strong> 083180702636</p>
+        <p><strong>Alamat:</strong> Solok</p>
+        <p><strong>Pendidikan Terakhir:</strong> SMK 1 Gunung Talang</p>
+        <p><strong>Jurusan:</strong> Bisnis Digital</p>
+        <p><strong>Fakultas:</strong> Fakultas Ekonomi Bisnis dan Ilmu Sosial</p>
+    </section>
+
+    <section class="education">
+        <h2>Pendidikan</h2>
+        <p><strong>SMK 1 Gunung Talang</strong> - Lulusan</p>
+        <p><strong>Fakultas Ekonomi Bisnis dan Ilmu Sosial</strong> - Bisnis Digital</p>
+    </section>
+
+    <section class="skills">
+        <h2>Keterampilan</h2>
+        <ul>
+            <li>Pengelolaan Bisnis Digital</li>
+            <li>Komunikasi Bisnis</li>
+            <li>Analisis Pasar dan Data</li>
+            <li>Manajemen Proyek Digital</li>
+        </ul>
+    </section>
+
+    <section class="portfolio">
+        <h2>Portofolio</h2>
+        <ul>
+            <li><a href="http://portofolioanda.com/proyek1" target="_blank">Proyek Pengembangan E-commerce</a></li>
+            <li><a href="http://portofolioanda.com/proyek2" target="_blank">Proyek Branding Digital</a></li>
+        </ul>
+    </section>
+
+    <section class="languages">
+        <h2>Bahasa</h2>
+        <p><strong>Bahasa Indonesia:</strong> Bahasa Ibu</p>
+        <p><strong>Bahasa Inggris:</strong> Lancar</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Tri Avesya Frastila</p>
+    </footer>
+</div>
+
+</body>
+</html>
